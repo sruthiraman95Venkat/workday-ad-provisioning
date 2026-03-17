@@ -18,3 +18,4 @@ Subnet Mask: 255.255.255.0
 Default Gateway: 192.168.1.1
 DNS: 127.0.0.1
 Day 4: Installing Active Directory Domain Services, Domain testlab.local created, OU's and Groups created via Powershell script
+Day 5: Created users via powershell script in each OU, Installing Azure AD connect
