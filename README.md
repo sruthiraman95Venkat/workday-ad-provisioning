@@ -32,6 +32,12 @@ Day 7: Logic App (la-workday-ad-provisioning) built and working
       ├── HR → GRP-HR-Cloud 
       ├── IT → GRP-IT-Cloud 
       └── Sales → GRP-Sales-Cloud 
+      <img width="1657" height="584" alt="image" src="https://github.com/user-attachments/assets/0be14d2d-f0f1-43f5-8d24-9ca4c21361a0" />
+      <img width="1641" height="704" alt="image" src="https://github.com/user-attachments/assets/0fa96f6a-33d2-4d8f-aec6-078377cd35f7" />
+      <img width="1648" height="697" alt="image" src="https://github.com/user-attachments/assets/d5acb058-ef90-4d4e-be11-df35ba794126" />
+
+
+
 
    Challenges solved:
    - Schema validation failing on null departments
