@@ -55,5 +55,32 @@ Day 7: Logic App (la-workday-ad-provisioning) built and working
    - API Permissions: User.Read.All, GroupMember.ReadWrite.All
      Day 9:  Logic App working - all 4 departments assigning correctly
      Day 10: - MgGraph PowerShell scripting - filtering and updating users
+     Day 11- Started with adding On-Prem groups, Created Automation account, Runbook.
+     <img width="1361" height="680" alt="image" src="https://github.com/user-attachments/assets/6289da0a-4c60-4596-b526-62895c5200ea" />
+     Installing the Azure powershell module inside the onprem VM DC01
+     Install-Module -Name Az -Force -AllowClobber
+     <img width="1475" height="260" alt="image" src="https://github.com/user-attachments/assets/62f476ef-0eac-4344-9aed-0b279af0a323" />
+     Connect- AzAccount from powershell inside DC 
+     <img width="1416" height="179" alt="image" src="https://github.com/user-attachments/assets/47ee05e0-ba2a-4410-a5a1-9ce6a4d50ec9" />
+     Registering VM as a hybrid Onprem worker
+     <img width="1415" height="229" alt="image" src="https://github.com/user-attachments/assets/1830d3f6-b87d-4d16-8b79-22b5ec2772bc" />
+✅ Day 12 - Azure VM (DC02) created as Domain Controller
+            - OUs, groups and users created via PowerShell
+            - Cloud Sync provisioning agent installed on DC02
+            - All 4 test users syncing to Entra ID ✅
+
+✅ Day 13 - Full end to end working!
+            - On-prem user created in DC02 testlab.local
+            - Cloud Sync syncs user to Entra ID
+            - Logic App detects user and assigns cloud group
+            - Azure Automation Runbook runs on Hybrid Worker
+            - On-prem group assigned automatically
+            
+            <img width="1337" height="744" alt="image" src="https://github.com/user-attachments/assets/5a629002-cb22-4175-8c45-edffd4cb94a1" />
+
+
+
+     
+
 
 
